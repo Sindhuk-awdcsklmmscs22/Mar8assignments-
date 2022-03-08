@@ -1,0 +1,8 @@
+a=input()
+print(a)
+c=0
+s="aeiou"
+for i in a:
+    if i not in s:
+        c=c+1
+print(c)
